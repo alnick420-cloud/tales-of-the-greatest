@@ -1,12 +1,10 @@
 [gd_scene format=3 uid="uid://bcv2vi8osgngb"]
 
 [ext_resource type="PackedScene" uid="uid://bxb7ngucula63" path="res://Player/player.tscn" id="1_0xm2m"]
-[ext_resource type="Script" uid="uid://bwebhdpobcc4l" path="res://Player/player.gd" id="2_h2yge"]
+[ext_resource type="PackedScene" uid="uid://dofkffwfsaivj" path="res://Enemies/enemies.tscn" id="2_0xm2m"]
 
 [node name="Main" type="Node2D" unique_id=1075180059]
 
-[node name="Player" parent="." unique_id=2110583655 instance=ExtResource("1_0xm2m")]
-script = ExtResource("2_h2yge")
-SPEED = 300.0
+[node name="Player" parent="." unique_id=805699270 instance=ExtResource("1_0xm2m")]
 
-[node name="Enemies" type="CharacterBody2D" parent="." unique_id=763651957]
+[node name="Enemies" parent="." unique_id=1699281792 instance=ExtResource("2_0xm2m")]

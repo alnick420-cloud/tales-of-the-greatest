@@ -1,0 +1,3 @@
+[gd_scene format=3 uid="uid://dofkffwfsaivj"]
+
+[node name="Enemies" type="CharacterBody2D" unique_id=1699281792]
